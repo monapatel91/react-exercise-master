@@ -1,0 +1,26 @@
+.cityDetailsWrapper > *{
+    float: left;
+}
+.cityDetailstbl{
+    width: 60%;
+}
+.cityDetailstbl td, #customers th{
+    border: 1px solid #ddd;
+  padding: 8px;
+}
+.cityDetailstbl tr:nth-child(even){background-color: #f2f2f2;}
+.cityDetailstbl th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2F4F4F;
+    color: white;
+  }
+  .cityDetailstbl > tbody > tr{
+    cursor: pointer;
+  }
+  .cityDetailsDiv{
+      margin-left: 30px;
+      background: #808080;
+      padding: 20px;
+  }
